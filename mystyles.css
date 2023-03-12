@@ -1,0 +1,130 @@
+.nav-link{
+    color: rgb(206, 209, 143);
+}
+.navbar-nav .nav-link.active{
+    color: rgb(132, 137, 133);
+}
+.navbar-brand>img{
+    width: 40px;
+    background-color: #212529;
+}
+.navbar-teggler{
+    background-color:  rgb(132, 137, 133);
+   color:  rgb(45, 76, 255);
+}
+.card img{
+    width: 100%;
+}
+body{
+    background: linear-gradient(70deg, rgb(24, 14, 121) 14%, #fff 100%);
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Nanum Brush Script', cursive;
+    font-family: 'Playfair Display', serif;
+}
+
+.sidebar{
+    color: rgb(0, 0, 0);
+    margin-top: 41px;
+    background: linear-gradient(170deg, rgb(109, 23, 133) 14%rgb(243, 243, 255)9) 100%);
+    font-family: 'Kanit', sans-serif;
+font-family: 'Nanum Brush Script', cursive;
+font-family: 'Playfair Display', serif;
+ 
+}
+
+a{
+    text-decoration: none;
+}
+.card-title{
+color: rgb(0, 0, 0);
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.slide-text{
+    color: rgb(12, 12, 12);
+ margin-block: auto;
+    font-family: 'Anton', sans-serif;
+font-variant: small-caps;
+}
+@media(max-width:755px){
+.carousel-indicators{
+    display: none;
+}
+}
+.footer-text{
+    color: rgb(0, 219, 88);
+    margin-top: 0.7rem;
+}
+.media-links{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.color{
+    background-color: rgba(88, 82, 82, 0.633);
+    
+}
+.background-color{
+    background-color: rgb(5, 5, 26);
+        
+    }
+   .call-anim{
+    animation: myAnim 2s ease 1s infinite normal forwards;
+    display:inline-flexbox;
+    margin-top: 20px;
+    
+   }
+   
+   @keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateX(-10px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateX(10px);
+	}
+
+	80% {
+		transform: translateX(8px);
+	}
+
+	90% {
+		transform: translateX(-8px);
+	}
+}
+.text-center>a{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.btn btn-primary{
+    size: 2rem ;
+}
+.card-3, .card-3>p{
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    margin-top: -7px;
+    
+}
+.text-center>p{
+justify-content: center;
+margin-top: 30px;
+}
+.size{
+    font-size:1.4rem;
+    font-family:fantasy;
+}
+br{
+    margin-top: 29px;
+}
+
